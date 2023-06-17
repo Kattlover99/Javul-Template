@@ -1,0 +1,2249 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Site Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="">
+        <header>
+            <div class="header_container">
+                <div class="header_left">
+                    <div class="burger d-xl-none d-block" id="burger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                    <a href="/" class="logo">
+                        <img src="img/logo.png" alt="" class="img-fluid">
+                    </a>
+                    <ul class="nav d-xl-flex d-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                    <div class="separator d-xl-block d-none"></div>
+                    <div class="header_ttl d-xl-block d-none">
+                        Global Links:
+                    </div>
+                    <ul class="nav d-xl-flex d-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products & Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">People’s Government & Leadership</a>
+                        </li>
+                    </ul>
+                    <div class="separator d-xl-block d-none"></div>
+                    <div class="header_ttl d-xl-block d-none">
+                        Explore:
+                    </div>
+                    <div class="dropdown d-xl-block d-none">
+                        <div class="header_dropdown"  data-toggle="dropdown">
+                            Units
+                        </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Objectives</a>
+                            <a class="dropdown-item" href="#">Tasks</a>
+                            <a class="dropdown-item" href="#">Issues</a>
+                            <a class="dropdown-item" href="#">Ideas</a>
+                        </div>
+                    </div> 
+                    <ul class="nav ml-3 d-xl-flex d-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Global Site Activity</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contribute</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header_center d-xl-block d-none">
+                    
+                </div>
+                <div class="header_right">
+                    <a href="#" class="header_btn">
+                        <img src="img/Watchlist.svg" alt="" class="img-fluid">
+                    </a>
+                    <a href="#" class="header_btn">
+                        <img src="img/mail.svg" alt="" class="img-fluid">
+                        <span class="items">
+                            1
+                        </span>
+                    </a>
+                    <a href="#" class="header_btn">
+                        <img src="img/settings.svg" alt="" class="img-fluid">
+                    </a>
+                    <a href="" class="login_btn">
+                        <img src="img/user.svg" alt=""> Logout
+                    </a>
+                </div>
+            </div>
+            <div class="mob_menu" id="mob_menu">
+                <nav>
+                    <div class="nav flex-column">
+                        <div class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Issues</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Ideas</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Objectives</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Tasks</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Forum</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Chat</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Wiki</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Activity Log</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Top Contributors</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Awards</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Finances</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Donate</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="other_content">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapse1">
+                                    Global Links: <img src="img/chevron_down.svg" alt="">
+                                </a>
+                            </div>
+                            <div id="collapse1" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Products & Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">People’s Government & Leadership</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="collapsed card-link" data-toggle="collapse" href="#collapse2">
+                                    Explore: <img src="img/chevron_down.svg" alt="">
+                                </a>
+                            </div>
+                            <div id="collapse2" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>
+                                            Units
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Objectives</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Tasks</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Issues</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Ideas</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>
+            <div class="search_modal" id="search_modal">
+                <div class="search_modal_content">
+                    <div class="container">
+                        <div class="search_block">
+                            <div class="search_form">
+                                <select name="search_select" id="search_select_modal">
+                                    <option value="">Search with this Unit</option>
+                                    <option value="">Search with another Unit</option>
+                                </select>
+                                <div class="separator"></div>
+                                <input type="text">
+                                <div class="separator"></div>
+                                <button type="submit"><img src="img/search.svg" alt=""></button>
+                                <div class="clear_search"></div>
+                            </div>
+                            <a href="#">
+                                Advanced Search
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="wrapper position-relative">
+            <div class="banner">
+                <div class="banner_left_side">
+                    <div class="banner_car">
+                        <img src="img/car.png" alt="" class="img-fluid">
+                    </div>
+                    <div>
+                        <h1>OurTaxi</h1>
+                        <div class="banner_desc d-md-block d-none">
+                            A publicly owned and operated corporation
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="search_block d-lg-block d-none">
+                        <div class="search_form">
+                            <select name="search_select" id="search_select">
+                                <option value="">Search with this Unit</option>
+                                <option value="">Search with another Unit</option>
+                            </select>
+                            <div class="separator"></div>
+                            <input type="text">
+                            <div class="separator"></div>
+                            <button type="submit"><img src="img/search.svg" alt=""></button>
+                            <div class="clear_search"></div>
+                        </div>
+                        <a href="#">
+                            Advanced Search
+                        </a>
+                    </div>
+                    <div class="search_btn d-md-none d-flex" id="search_btn">
+                        <img src="img/search.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <nav class=" d-xl-block d-none">
+                <div class="container">
+                    <div class="nav">
+                        <div class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Issues</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Ideas</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Objectives</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Tasks</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Forum</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Chat</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Wiki</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Activity Log</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Top Contributors</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Awards</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Finances</a>
+                        </div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">Donate</a>
+                        </div>
+                        <div class="separator"></div>
+                        <div class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="breadcrumbs">
+                <div class="container">
+                    <div class="bread">
+                        <a href="/">Urban Planning</a><div class="separator"></div><a href="#">Public Transport</a><div class="separator"></div><a href="#">Taxis</a>
+                    </div>                
+                </div>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="content_row">                    
+                        <div class="sidebar">
+                            <div class="sidebar_block">
+                                <div class="sidebar_block_ttl">
+                                    Unit Overview
+                                    <div class="arrow">
+                                        <img src="img/bottom_y.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="sidebar_block_content">
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            Type:
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            Community-owned
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            Issue Resolution:
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            <div class="blue_progress"></div> 94%
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            Location:
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            Worldwide
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            Operational Grade:
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            A+ <img src="img/question.svg" alt="" class="question">
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            Funded:
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            <div class="green_progress"></div> 105%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar_block">
+                                <div class="sidebar_block_ttl">
+                                    Activity Log
+                                    <div class="arrow">
+                                        <img src="img/bottom_y.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="sidebar_block_content">
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/location.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            <a href="#">Objective ‘xyz’</a> created by <a href="#">User 3</a> (5 hours ago)
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/list.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            <a href="#">Task ‘1’ updated</a>
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon white_on_dark">
+                                            <img src="img/commen.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            User 5 commented on Issue ‘XYZ’
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/circle-checked.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            <a href="#">Task 4 completed</a> by <a href="#">User 2</a>
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/wallet.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            $500 was donated by ‘xyz’
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/bug.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            Issue ‘Drivers cancelling at the
+                                            last moment’ submitted by User 4
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon">
+                                            <img src="img/humbleicons_bulb.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            Idea ‘xyz’ edited by User 5
+                                        </div>
+                                    </div>
+                                    <div class="log_item">
+                                        <div class="log_icon white_on_dark">
+                                            <img src="img/commen.svg" alt="">
+                                        </div>
+                                        <div class="log_txt">
+                                            User 5 commented on Task ‘ABC’
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_content_bottom">
+                                        <a href="#">Top Contributors</a> <div class="separator"></div> <a href="#">More Activity</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar_block">
+                                <div class="sidebar_block_ttl">
+                                    Finances
+                                    <div class="arrow">
+                                        <img src="img/bottom_y.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="sidebar_block_content">
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left text-left">
+                                            Funded
+                                        </div>
+                                        <div class="sidebar_block_left text-left">
+                                            Received: $3,000
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                            <div class="sidebar_block_right">
+                                                <div class="green_progress"></div> 105%
+                                            </div>
+                                        </div>
+                                        <div class="sidebar_block_left text-left">
+                                            Awarded: $2,000
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_row">
+                                        <div class="sidebar_block_left">
+                                        </div>
+                                        <div class="sidebar_block_right">
+                                            Available: $1,000
+                                        </div>
+                                    </div>
+                                    <div class="sidebar_block_content_bottom">
+                                        <a href="#">Donate</a> <div class="separator"></div> <a href="#">Financial Activity</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar_block">
+                                <div class="sidebar_block_ttl">
+                                    About
+                                    <div class="arrow">
+                                        <img src="img/bottom_y.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="sidebar_block_content">
+                                    <div class="sidebar_block_content_txt">
+                                        OneTaxi is a publicly-owned transport organization. It provides taxi services around the globe via a free downloadable app. Multiple modes of transportation are supported ... <a href="#"><img src="img/more.svg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_content">
+                            <div class="content_block">
+                                <div class="table_block table_block_issues">
+                                    <div class="table_block_head">
+                                        <div class="table_block_icon">
+                                            <img src="img/bug.svg" alt="" class="img-fluid">
+                                        </div>
+                                        Issues (45)
+                                        <div class="arrow">
+                                            <img src="img/bottom.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="table_block_body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="type_col">
+                                                        Type
+                                                    </th>
+                                                    <th class="title_col">
+                                                        Title
+                                                    </th>
+                                                    <th class="priority_col">
+                                                        Priority
+                                                    </th>
+                                                    <th class="last_reply_col">
+                                                        Last Reply
+                                                    </th>
+                                                    <th class="replies_col">
+                                                        Replies
+                                                    </th>
+                                                    <th class="views_col">
+                                                        Views
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        34
+                                                    </td>
+                                                    <td class="views_col">
+                                                        205
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Drivers cancelling at the last moment
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:95%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        6 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        156
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Drivers cancelling at the last moment
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        34
+                                                    </td>
+                                                    <td class="views_col">
+                                                        205
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Drivers cancelling at the last moment
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:95%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        6 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        156
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Drivers cancelling at the last moment
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="mob_table d-sm-none d-block">
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        5 days ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        12
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        78
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:95%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        6 months ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        14
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        156
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section hidden_row">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content_block_bottom">
+                                    <a href="#"><img src="img/circle-plus.svg" alt=""> Add New</a> <div class="separator"></div> <a href="#" class="see_more">See more</a>
+                                </div>
+                            </div>
+                            <div class="content_block">
+                                <div class="table_block table_block_ideas">
+                                    <div class="table_block_head">
+                                        <div class="table_block_icon">
+                                            <img src="img/humbleicons_bulb.svg" alt="" class="img-fluid">
+                                        </div>
+                                        Ideas (18)
+                                        <div class="arrow">
+                                            <img src="img/bottom.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="table_block_body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="type_col">
+                                                        Type
+                                                    </th>
+                                                    <th class="title_col">
+                                                        Title
+                                                    </th>
+                                                    <th class="priority_col">
+                                                        Priority
+                                                    </th>
+                                                    <th class="last_reply_col">
+                                                        Last Reply
+                                                    </th>
+                                                    <th class="replies_col">
+                                                        Replies
+                                                    </th>
+                                                    <th class="views_col">
+                                                        Views
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Misc
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Create a Customer/Driver complaint review process
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        34
+                                                    </td>
+                                                    <td class="views_col">
+                                                        205
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Add a feature to book ride in advance
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Ability to add multiple stops with extra costs
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        6 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        156
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        App
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Send email reminder to tip
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Customer
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Ability to add multiple stops with extra costs
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        6 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        156
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="mob_table d-sm-none d-block">
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        5 days ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        12
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        78
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:95%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        6 months ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        14
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        156
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section hidden_row">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content_block_bottom">
+                                    <a href="#"><img src="img/circle-plus.svg" alt=""> Add New</a> <div class="separator"></div> <a href="#" class="see_more">See more</a>
+                                </div>
+                            </div>
+                            <div class="content_block">
+                                <div class="table_block table_block_tasks">
+                                    <div class="table_block_head">
+                                        <div class="table_block_icon">
+                                            <img src="img/list.svg" alt="" class="img-fluid">
+                                        </div>
+                                        Tasks (35)
+                                        <div class="arrow">
+                                            <img src="img/bottom.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="table_block_body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="type_col">
+                                                        Type
+                                                    </th>
+                                                    <th class="title_col">
+                                                        Title
+                                                    </th>
+                                                    <th class="status_col">
+                                                        Status
+                                                    </th>
+                                                    <th class="replies_col">
+                                                        Replies
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Some misc Task Title
+                                                    </td>
+                                                    <td class="status_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        $60
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Information tech
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Research payment gateway methods for implementing in the app
+                                                    </td>
+                                                    <td class="status_col">
+                                                        Open for Bidding
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        50 points
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Require feedback if a 1-star rating is given
+                                                    </td>
+                                                    <td class="status_col">
+
+                                                    </td>
+                                                    <td class="replies_col">
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Software
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Debug GPS reporting issues (Goal)
+                                                    </td>
+                                                    <td class="status_col">
+
+                                                    </td>
+                                                    <td class="replies_col">
+
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Information tech
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Research payment gateway methods for implementing in the app
+                                                    </td>
+                                                    <td class="status_col">
+                                                        Open for Bidding
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        50 points
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="mob_table d-sm-none d-block">
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Status
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        $60
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Status
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        5 days ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        50 points
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Status
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Status
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section hidden_row">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Status
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        $60
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content_block_bottom">
+                                    <a href="#"><img src="img/circle-plus.svg" alt=""> Add New</a> <div class="separator"></div> <a href="#" class="see_more">See more</a>
+                                </div>
+                            </div>
+                            <div class="content_block">
+                                <div class="table_block table_block_objectives">
+                                    <div class="table_block_head">
+                                        <div class="table_block_icon">
+                                            <img src="img/location.svg" alt="" class="img-fluid">
+                                        </div>
+                                        Objectives (9)
+                                        <div class="arrow">
+                                            <img src="img/bottom.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="table_block_body">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th class="type_col">
+                                                        Type
+                                                    </th>
+                                                    <th class="title_col">
+                                                        Title
+                                                    </th>
+                                                    <th class="priority_col">
+                                                        Priority
+                                                    </th>
+                                                    <th class="last_reply_col">
+                                                        Last Reply
+                                                    </th>
+                                                    <th class="replies_col">
+                                                        Replies
+                                                    </th>
+                                                    <th class="views_col">
+                                                        Views
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Information Tech
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Upgrade server infrastructure for 100% more capacity
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        34
+                                                    </td>
+                                                    <td class="views_col">
+                                                        205
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Financial
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Reduce overhead costs next year by 10% via standardization
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Marketing
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Design public funding campaign for advertising
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        6 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        156
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        App
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Make app faster for older Android systems
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        5 days ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        12
+                                                    </td>
+                                                    <td class="views_col">
+                                                        78
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="type_col">
+                                                        Marketing
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Obtain approval to operate in Spain
+                                                    </td>
+                                                    <td class="priority_col">
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 months ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        14
+                                                    </td>
+                                                    <td class="views_col">
+                                                        6
+                                                    </td>
+                                                </tr>
+                                                <tr class="hidden_row">
+                                                    <td class="type_col">
+                                                        Driver
+                                                    </td>
+                                                    <td class="title_col">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </td>
+                                                    <td class="priority_col">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </td>
+                                                    <td class="last_reply_col">
+                                                        10 minutes ago
+                                                    </td>
+                                                    <td class="replies_col">
+                                                        34
+                                                    </td>
+                                                    <td class="views_col">
+                                                        205
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="mob_table d-sm-none d-block">
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:65%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        5 days ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        12
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        78
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Being rated without any feedback / 1* ratings should require feedback
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:95%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        6 months ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        14
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        156
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Customer
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Drivers cancelling at the last moment
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mob_table_section hidden_row">
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Type
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Driver
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Title
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        Not having bonus pay tiers on mid grade or newer vehicles (#157)
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Priority
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        <div class="progress">
+                                                            <div class="progress-bar" style="width:70%"></div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Last Reply
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        10 minutes ago
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Replies
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        34
+                                                    </div>
+                                                </div>
+                                                <div class="mob_table_row">
+                                                    <div class="mob_table_ttl">
+                                                        Views
+                                                    </div>
+                                                    <div class="mob_table_val">
+                                                        205
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content_block_bottom">
+                                    <a href="#"><img src="img/circle-plus.svg" alt=""> Add New</a> <div class="separator"></div> <a href="#" class="see_more">See more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site_statistic">
+                <div class="site_statistic_head">
+                    <div class="container text-center">
+                        Global Site Statistics
+                    </div>
+                </div>
+                <div class="site_statistic_body">
+                    <div class="container">
+                        <div class="site_statistic_body_container">
+                            <div class="statistic_blocks">
+                                <div class="statistic_block statistic_block_purple">
+                                    <div class="statistic_block_top">
+                                        Units
+                                    </div>
+                                    <div class="statistic_block_bottom">
+                                        16
+                                    </div>
+                                </div>
+                                <div class="statistic_block statistic_block_blue">
+                                    <div class="statistic_block_top">
+                                        Objectives
+                                    </div>
+                                    <div class="statistic_block_bottom">
+                                        178
+                                    </div>
+                                </div>
+                                <div class="statistic_block statistic_block_green">
+                                    <div class="statistic_block_top">
+                                        Tasks
+                                    </div>
+                                    <div class="statistic_block_bottom">
+                                        463
+                                    </div>
+                                </div>
+                                <div class="statistic_block statistic_block_orange">
+                                    <div class="statistic_block_top">
+                                        Ideas
+                                    </div>
+                                    <div class="statistic_block_bottom">
+                                        115
+                                    </div>
+                                </div>
+                                <div class="statistic_block statistic_block_red">
+                                    <div class="statistic_block_top">
+                                        Issues
+                                    </div>
+                                    <div class="statistic_block_bottom">
+                                        259
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="statistic_center">
+                                <div class="statistic_row">
+                                    <div class="statistic_param">
+                                        Users registered:
+                                    </div>
+                                    <div class="statistic_val">
+                                        167
+                                    </div>
+                                </div>
+                                <div class="statistic_row">
+                                    <div class="statistic_param">
+                                        Logged in:
+                                    </div>
+                                    <div class="statistic_val">
+                                        25
+                                    </div>
+                                </div>
+                                <div class="statistic_row">
+                                    <div class="statistic_param">
+                                        Forum threads:
+                                    </div>
+                                    <div class="statistic_val">
+                                        48
+                                    </div>
+                                </div>
+                                <div class="statistic_row">
+                                    <div class="statistic_param">
+                                        Forum Posts:
+                                    </div>
+                                    <div class="statistic_val">
+                                        516
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="statistic_right">
+                                <div class="statistic_row">
+                                    <div class="statistic_param">
+                                        Wiki Edits:
+                                    </div>
+                                    <div class="statistic_val">
+                                        268
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="statistic_row statistic_row_dollar">
+                                        <div class="statistic_param">
+                                            Funds available:
+                                        </div>
+                                        <div class="statistic_val">
+                                            $2,650
+                                        </div>
+                                    </div>
+                                    <div class="statistic_row statistic_row_dollar">
+                                        <div class="statistic_param">
+                                            Funds awarded:
+                                        </div>
+                                        <div class="statistic_val">
+                                            $6,845
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <ul class="nav justify-content-center flex-md-row flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms of Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Disclaimer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Report a Concern</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">System Improvements</a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>       
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
